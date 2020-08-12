@@ -1,0 +1,12 @@
+{
+  "name": "jwHackathonMobileApp",
+  "displayName": "jwHackathonMobileApp",
+  "expo": {
+    "name": "jwHackathonMobileApp",
+    "slug": "jwHackathonMobileApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

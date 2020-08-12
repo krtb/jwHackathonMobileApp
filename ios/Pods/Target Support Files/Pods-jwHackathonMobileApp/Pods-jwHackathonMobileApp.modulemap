@@ -1,0 +1,6 @@
+module Pods_jwHackathonMobileApp {
+  umbrella header "Pods-jwHackathonMobileApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
