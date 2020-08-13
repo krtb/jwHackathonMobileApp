@@ -16,7 +16,7 @@ export default class Search extends React.Component {
 
   updateSearch = (search) => {
     this.setState({ search })
-  };
+  }
 
   render() {
     const { search } = this.state;
