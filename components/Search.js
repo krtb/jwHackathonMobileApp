@@ -4,8 +4,8 @@ import { Input } from 'react-native-elements';
 
 export default class Search extends React.Component {
   state = {
-    search: '',
-  };
+    search: ''
+  }
 
   handleSubmit = e => {
     let { searchResults } = this.props
@@ -19,7 +19,7 @@ export default class Search extends React.Component {
   }
 
   render() {
-    const { search } = this.state;
+    const { search } = this.state
 
     return (
       <Input
@@ -27,6 +27,6 @@ export default class Search extends React.Component {
         onChangeText={this.updateSearch}
         onSubmitEditing={this.handleSubmit}
       />
-    );
+    )
   }
 }
