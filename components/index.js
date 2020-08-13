@@ -9,6 +9,8 @@ function rand(digits) {
 }
 
 export { default as VideosList } from "./VideosList"
+export { default as PlayersList } from "./PlayersList"
+export { default as Search } from "./Search"
 
 let apiCallHelper = () => {
   let api_format = "json"
