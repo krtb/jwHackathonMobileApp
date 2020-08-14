@@ -9,11 +9,11 @@ export default function App() {
       {/* <Text>Open up App.js to start working on your app!</Text> */}
       <StatusBar style="auto" />
 
-      {/* Uncomment this if you want to see the VideosList component on the App Home Page */}
-      {/* <VideosList/> */}
+      {/*Uncomment this if you want to see the VideosList component on the App Home Page */}
+       <VideosList/>
 
       {/* Uncomment this if you want to see the PlayersList component on App Home Page */}
-      {/* <PlayersList /> */}
+      <PlayersList />
     </View>
   );
 }
