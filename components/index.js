@@ -8,6 +8,8 @@ function rand(digits) {
   )
 }
 
+// Export all new components from this section
+export { default as Home } from "./Home"
 export { default as VideosList } from "./VideosList"
 export { default as PlayersList } from "./PlayersList"
 export { default as Search } from "./Search"
